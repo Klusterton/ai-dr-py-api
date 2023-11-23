@@ -6,7 +6,7 @@ import openai
 
 app = FastAPI()
 
-os.environ["OPENAI_API_KEY"] = "**********************************"
+#os.environ["OPENAI_API_KEY"] = "**********************************"
 
 chat = ChatOpenAI(
     model='gpt-3.5-turbo'
